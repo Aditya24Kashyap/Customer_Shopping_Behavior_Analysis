@@ -1,55 +1,148 @@
-# 👨🏻‍💻Customer Shopping Behavior Analysis
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting using SQL, Python and Power BI.
+# 👨🏻‍💻 Customer Shopping Behavior Analysis
+
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![SQL](https://img.shields.io/badge/SQL-Queries-orange)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+---
 
 ## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+This project represents a complete, industry-standard, end-to-end data analytics workflow designed to mirror real-world responsibilities of data analysts.
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+It demonstrates how raw data can be transformed into meaningful business insights through data preparation, analysis, and visualization using **Python, SQL, and Power BI**.
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+---
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+## 🎯 Objective
 
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
+* Analyze customer shopping behavior
+* Identify key purchase drivers
+* Segment customers based on behavior and loyalty
+* Enable data-driven decision-making through insights and dashboards
 
-## 🛠️ How to Use This Project
+---
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+## 🧰 Tech Stack
 
-    This file contains:
+* **Python (Pandas, NumPy)** – Data cleaning & EDA
+* **SQL (MySQL/PostgreSQL/MS SQL Server)** – Business queries & analysis
+* **Power BI** – Interactive dashboard & visualization
+* **Jupyter Notebook** – Development environment
 
-      - Data Import
+---
 
-      - Data exploration
+## 🔄 End-to-End Workflow
 
-      - Data cleaning
+### 1️⃣ Data Preparation & EDA (Python)
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+* Data import and exploration
+* Data cleaning and transformation
+* Handling missing values
+* Feature understanding
 
-      - Create a database in SQL
+### 2️⃣ Data Analysis (SQL)
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+* Created database and loaded cleaned data
+* Executed business queries to analyze:
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+  * Customer segments
+  * Loyalty patterns
+  * Purchase behavior
+  * Revenue drivers
 
-      - Create project report and Presentation
+### 3️⃣ Visualization (Power BI)
 
+* Built an interactive dashboard to highlight:
+
+  * Customer trends
+  * Sales patterns
+  * Behavioral insights
+
+### 4️⃣ Reporting & Presentation
+
+* Summarized key findings
+* Delivered actionable business recommendations
+* Created a presentation-ready analytical report
+
+---
+
+## 📸 Dashboard Preview
+
+![Customer Behavior Dashboard](https://raw.githubusercontent.com/Aditya24Kashyap/Customer_Shopping_Behavior_Analysis/main/Customer%20Behavior%20Analysis%20DashBoard.png)
+
+---
+
+## 📂 Project Structure
+
+```bash id="r8xk3n"
+Customer_Shopping_Behavior_Analysis/
+│
+├── Customer_Shopping_Behavior_Analysis.ipynb
+├── customer_behavior_sql_queries.sql
+├── dashboard.pbix
+└── README.md
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the Repository
+
+```bash id="o2q9kp"
+git clone https://github.com/Aditya24Kashyap/Customer_Shopping_Behavior_Analysis.git
+cd Customer_Shopping_Behavior_Analysis
+```
+
+### 2. Open Jupyter Notebook
+
+* Run `Customer_Shopping_Behavior_Analysis.ipynb`
+* Perform data cleaning and exploration
+
+### 3. Load Data into SQL
+
+* Create a database in MySQL/PostgreSQL/MS SQL Server
+* Load dataset using Python
+* Run queries from `customer_behavior_sql_queries.sql`
+
+### 4. Open Power BI Dashboard
+
+* Connect Power BI to SQL database
+* Open `dashboard.pbix`
+
+---
+
+## 💡 Key Outcomes
+
+* Built a complete analytics pipeline from raw data to insights
+* Identified customer behavior patterns and segmentation
+* Developed an interactive dashboard for decision-making
+* Simulated real-world business analytics workflow
+
+---
+
+## 🎤 Project Explanation (Interview Ready)
+
+> Developed an end-to-end customer behavior analysis project using Python, SQL, and Power BI, transforming raw data into actionable insights through data cleaning, business querying, and interactive dashboard visualization.
+
+---
+
+## 🚀 Future Enhancements
+
+* Real-time data pipeline integration
+* Advanced analytics using Machine Learning
+* Predictive modeling for customer behavior
+* Automated reporting dashboards
+
+---
+
+## 👤 Author
+
+**Aditya K**
+Aspiring Data Analyst / Business Intelligence Developer
+
+---
+
+## ⭐ If you found this useful, consider giving it a star!
