@@ -164,13 +164,14 @@ Performed business-focused queries:
 ---
 
 ## 📁 Project Structure
-
+```
 Customer_Shopping_Behavior_Analysis/
 │
 ├── Customer_Shopping_Behavior_Analysis.ipynb
 ├── customer_behavior_sql_queries.sql
 ├── dashboard.pbix
 └── README.md
+```
 
 ---
 
